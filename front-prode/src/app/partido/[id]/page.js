@@ -1,3 +1,3 @@
-export default function PartidoPage() {
-  return <div>Pantalla Partido ID</div>;
+export default function PartidoPageId({ params }) {
+  return <div>Pantalla Partido ID: {params.id}</div>;
 }
