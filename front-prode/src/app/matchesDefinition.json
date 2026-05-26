@@ -6,7 +6,7 @@
         "date": "2026-06-28",
         "day": "Domingo",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Los Ángeles",
         "teamA": {
             "code": "2A",
@@ -25,7 +25,7 @@
         "date": "2026-06-29",
         "day": "Lunes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Boston",
         "teamA": {
             "code": "1E",
@@ -44,7 +44,7 @@
         "date": "2026-06-29",
         "day": "Lunes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Monterrey",
         "teamA": {
             "code": "1F",
@@ -63,7 +63,7 @@
         "date": "2026-06-29",
         "day": "Lunes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Houston",
         "teamA": {
             "code": "1C",
@@ -82,7 +82,7 @@
         "date": "2026-06-30",
         "day": "Martes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Nueva York Nueva Jersey",
         "teamA": {
             "code": "1I",
@@ -101,7 +101,7 @@
         "date": "2026-06-30",
         "day": "Martes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Dallas",
         "teamA": {
             "code": "2E",
@@ -120,7 +120,7 @@
         "date": "2026-06-30",
         "day": "Martes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Ciudad de México",
         "teamA": {
             "code": "1A",
@@ -139,7 +139,7 @@
         "date": "2026-07-01",
         "day": "Miércoles",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Atlanta",
         "teamA": {
             "code": "1L",
@@ -158,7 +158,7 @@
         "date": "2026-07-01",
         "day": "Miércoles",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Bahía de San Francisco",
         "teamA": {
             "code": "1D",
@@ -177,7 +177,7 @@
         "date": "2026-07-01",
         "day": "Miércoles",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Seattle",
         "teamA": {
             "code": "1G",
@@ -196,7 +196,7 @@
         "date": "2026-07-02",
         "day": "Jueves",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Toronto",
         "teamA": {
             "code": "2K",
@@ -215,7 +215,7 @@
         "date": "2026-07-02",
         "day": "Jueves",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Los Ángeles",
         "teamA": {
             "code": "1H",
@@ -234,7 +234,7 @@
         "date": "2026-07-02",
         "day": "Jueves",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio BC Place Vancouver",
         "teamA": {
             "code": "1B",
@@ -253,7 +253,7 @@
         "date": "2026-07-03",
         "day": "Viernes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Miami",
         "teamA": {
             "code": "1J",
@@ -272,7 +272,7 @@
         "date": "2026-07-03",
         "day": "Viernes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Kansas City",
         "teamA": {
             "code": "1K",
@@ -291,7 +291,7 @@
         "date": "2026-07-03",
         "day": "Viernes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Dallas",
         "teamA": {
             "code": "2D",
@@ -310,7 +310,7 @@
         "date": "2026-07-04",
         "day": "Sábado",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Filadelfia",
         "teamA": {
             "code": "G74",
@@ -329,7 +329,7 @@
         "date": "2026-07-04",
         "day": "Sábado",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Houston",
         "teamA": {
             "code": "G73",
@@ -348,7 +348,7 @@
         "date": "2026-07-05",
         "day": "Domingo",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Nueva York Nueva Jersey",
         "teamA": {
             "code": "G76",
@@ -367,7 +367,7 @@
         "date": "2026-07-05",
         "day": "Domingo",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Ciudad de México",
         "teamA": {
             "code": "G79",
@@ -386,7 +386,7 @@
         "date": "2026-07-06",
         "day": "Lunes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Dallas",
         "teamA": {
             "code": "G83",
@@ -405,7 +405,7 @@
         "date": "2026-07-06",
         "day": "Lunes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Seattle",
         "teamA": {
             "code": "G81",
@@ -424,7 +424,7 @@
         "date": "2026-07-07",
         "day": "Martes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Atlanta",
         "teamA": {
             "code": "G86",
@@ -443,7 +443,7 @@
         "date": "2026-07-07",
         "day": "Martes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio BC Place Vancouver",
         "teamA": {
             "code": "G85",
@@ -462,7 +462,7 @@
         "date": "2026-07-09",
         "day": "Jueves",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Boston",
         "teamA": {
             "code": "G89",
@@ -481,7 +481,7 @@
         "date": "2026-07-10",
         "day": "Viernes",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Los Ángeles",
         "teamA": {
             "code": "G93",
@@ -500,7 +500,7 @@
         "date": "2026-07-11",
         "day": "Sábado",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Miami",
         "teamA": {
             "code": "G91",
@@ -519,7 +519,7 @@
         "date": "2026-07-11",
         "day": "Sábado",
         "time": "",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Kansas City",
         "teamA": {
             "code": "G95",
@@ -538,7 +538,7 @@
         "date": "2026-07-14",
         "day": "Martes",
         "time": "16:00",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Dallas",
         "teamA": {
             "code": "G97",
@@ -557,7 +557,7 @@
         "date": "2026-07-15",
         "day": "Miércoles",
         "time": "16:00",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Atlanta",
         "teamA": {
             "code": "G99",
@@ -576,7 +576,7 @@
         "date": "2026-07-18",
         "day": "Sábado",
         "time": "18:00",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Miami",
         "teamA": {
             "code": "P101",
@@ -595,7 +595,7 @@
         "date": "2026-07-19",
         "day": "Domingo",
         "time": "16:00",
-        "timezone": "UTC-3",
+        "timezone": "UTC-4",
         "stadium": "Estadio Nueva York Nueva Jersey",
         "teamA": {
             "code": "G101",
