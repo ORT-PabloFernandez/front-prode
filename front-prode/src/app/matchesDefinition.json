@@ -1,0 +1,612 @@
+{
+    "matchesDefinition": [
+        {
+        "id": 73,
+        "group": "16avos",
+        "date": "2026-06-28",
+        "day": "Domingo",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Los Ángeles",
+        "teamA": {
+            "code": "2A",
+            "name": "2º Grupo A",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "2B",
+            "name": "2º Grupo B",
+            "flag": ""
+        }
+        },
+        {
+        "id": 74,
+        "group": "16avos",
+        "date": "2026-06-29",
+        "day": "Lunes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Boston",
+        "teamA": {
+            "code": "1E",
+            "name": "1º Grupo E",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "3A",
+            "name": "3º Grupo A/B/C/D/F",
+            "flag": ""
+        }
+        },
+        {
+        "id": 75,
+        "group": "16avos",
+        "date": "2026-06-29",
+        "day": "Lunes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Monterrey",
+        "teamA": {
+            "code": "1F",
+            "name": "1º Grupo F",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "2C",
+            "name": "2º Grupo C",
+            "flag": ""
+        }
+        },
+        {
+        "id": 76,
+        "group": "16avos",
+        "date": "2026-06-29",
+        "day": "Lunes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Houston",
+        "teamA": {
+            "code": "1C",
+            "name": "1º Grupo C",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "2F",
+            "name": "2º Grupo F",
+            "flag": ""
+        }
+        },
+        {
+        "id": 77,
+        "group": "16avos",
+        "date": "2026-06-30",
+        "day": "Martes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Nueva York Nueva Jersey",
+        "teamA": {
+            "code": "1I",
+            "name": "1º Grupo I",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "3C",
+            "name": "3º Grupo C/D/F/G/H",
+            "flag": ""
+        }
+        },
+        {
+        "id": 78,
+        "group": "16avos",
+        "date": "2026-06-30",
+        "day": "Martes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Dallas",
+        "teamA": {
+            "code": "2E",
+            "name": "2º Grupo E",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "2I",
+            "name": "2º Grupo I",
+            "flag": ""
+        }
+        },
+        {
+        "id": 79,
+        "group": "16avos",
+        "date": "2026-06-30",
+        "day": "Martes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Ciudad de México",
+        "teamA": {
+            "code": "1A",
+            "name": "1º Grupo A",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "3C",
+            "name": "3º Grupo C/E/F/H/I",
+            "flag": ""
+        }
+        },
+        {
+        "id": 80,
+        "group": "16avos",
+        "date": "2026-07-01",
+        "day": "Miércoles",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Atlanta",
+        "teamA": {
+            "code": "1L",
+            "name": "1º Grupo L",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "3E",
+            "name": "3º Grupo E/H/I/J/K",
+            "flag": ""
+        }
+        },
+        {
+        "id": 81,
+        "group": "16avos",
+        "date": "2026-07-01",
+        "day": "Miércoles",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Bahía de San Francisco",
+        "teamA": {
+            "code": "1D",
+            "name": "1º Grupo D",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "3B",
+            "name": "3º Grupo B/E/F/I/J",
+            "flag": ""
+        }
+        },
+        {
+        "id": 82,
+        "group": "16avos",
+        "date": "2026-07-01",
+        "day": "Miércoles",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Seattle",
+        "teamA": {
+            "code": "1G",
+            "name": "1º Grupo G",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "3A",
+            "name": "3º Grupo A/E/H/I/J",
+            "flag": ""
+        }
+        },
+        {
+        "id": 83,
+        "group": "16avos",
+        "date": "2026-07-02",
+        "day": "Jueves",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Toronto",
+        "teamA": {
+            "code": "2K",
+            "name": "2º Grupo K",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "2L",
+            "name": "2º Grupo L",
+            "flag": ""
+        }
+        },
+        {
+        "id": 84,
+        "group": "16avos",
+        "date": "2026-07-02",
+        "day": "Jueves",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Los Ángeles",
+        "teamA": {
+            "code": "1H",
+            "name": "1º Grupo H",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "2J",
+            "name": "2º Grupo J",
+            "flag": ""
+        }
+        },
+        {
+        "id": 85,
+        "group": "16avos",
+        "date": "2026-07-02",
+        "day": "Jueves",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio BC Place Vancouver",
+        "teamA": {
+            "code": "1B",
+            "name": "1º Grupo B",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "3E",
+            "name": "3º Grupo E/F/G/I/J",
+            "flag": ""
+        }
+        },
+        {
+        "id": 86,
+        "group": "16avos",
+        "date": "2026-07-03",
+        "day": "Viernes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Miami",
+        "teamA": {
+            "code": "1J",
+            "name": "1º Grupo J",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "2H",
+            "name": "2º Grupo H",
+            "flag": ""
+        }
+        },
+        {
+        "id": 87,
+        "group": "16avos",
+        "date": "2026-07-03",
+        "day": "Viernes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Kansas City",
+        "teamA": {
+            "code": "1K",
+            "name": "1º Grupo K",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "3D",
+            "name": "3º Grupo D/E/I/J/L",
+            "flag": ""
+        }
+        },
+        {
+        "id": 88,
+        "group": "16avos",
+        "date": "2026-07-03",
+        "day": "Viernes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Dallas",
+        "teamA": {
+            "code": "2D",
+            "name": "2º Grupo D",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "2G",
+            "name": "2º Grupo G",
+            "flag": ""
+        }
+        },
+        {
+        "id": 89,
+        "group": "Octavos",
+        "date": "2026-07-04",
+        "day": "Sábado",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Filadelfia",
+        "teamA": {
+            "code": "G74",
+            "name": "Ganador Partido 74",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G77",
+            "name": "Ganador Partido 77",
+            "flag": ""
+        }
+        },
+        {
+        "id": 90,
+        "group": "Octavos",
+        "date": "2026-07-04",
+        "day": "Sábado",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Houston",
+        "teamA": {
+            "code": "G73",
+            "name": "Ganador Partido 73",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G75",
+            "name": "Ganador Partido 75",
+            "flag": ""
+        }
+        },
+        {
+        "id": 91,
+        "group": "Octavos",
+        "date": "2026-07-05",
+        "day": "Domingo",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Nueva York Nueva Jersey",
+        "teamA": {
+            "code": "G76",
+            "name": "Ganador Partido 76",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G78",
+            "name": "Ganador Partido 78",
+            "flag": ""
+        }
+        },
+        {
+        "id": 92,
+        "group": "Octavos",
+        "date": "2026-07-05",
+        "day": "Domingo",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Ciudad de México",
+        "teamA": {
+            "code": "G79",
+            "name": "Ganador Partido 79",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G80",
+            "name": "Ganador Partido 80",
+            "flag": ""
+        }
+        },
+        {
+        "id": 93,
+        "group": "Octavos",
+        "date": "2026-07-06",
+        "day": "Lunes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Dallas",
+        "teamA": {
+            "code": "G83",
+            "name": "Ganador Partido 83",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G84",
+            "name": "Ganador Partido 84",
+            "flag": ""
+        }
+        },
+        {
+        "id": 94,
+        "group": "Octavos",
+        "date": "2026-07-06",
+        "day": "Lunes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Seattle",
+        "teamA": {
+            "code": "G81",
+            "name": "Ganador Partido 81",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G82",
+            "name": "Ganador Partido 82",
+            "flag": ""
+        }
+        },
+        {
+        "id": 95,
+        "group": "Octavos",
+        "date": "2026-07-07",
+        "day": "Martes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Atlanta",
+        "teamA": {
+            "code": "G86",
+            "name": "Ganador Partido 86",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G88",
+            "name": "Ganador Partido 88",
+            "flag": ""
+        }
+        },
+        {
+        "id": 96,
+        "group": "Octavos",
+        "date": "2026-07-07",
+        "day": "Martes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio BC Place Vancouver",
+        "teamA": {
+            "code": "G85",
+            "name": "Ganador Partido 85",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G87",
+            "name": "Ganador Partido 87",
+            "flag": ""
+        }
+        },
+        {
+        "id": 97,
+        "group": "Cuartos",
+        "date": "2026-07-09",
+        "day": "Jueves",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Boston",
+        "teamA": {
+            "code": "G89",
+            "name": "Ganador Partido 89",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G90",
+            "name": "Ganador Partido 90",
+            "flag": ""
+        }
+        },
+        {
+        "id": 98,
+        "group": "Cuartos",
+        "date": "2026-07-10",
+        "day": "Viernes",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Los Ángeles",
+        "teamA": {
+            "code": "G93",
+            "name": "Ganador Partido 93",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G94",
+            "name": "Ganador Partido 94",
+            "flag": ""
+        }
+        },
+        {
+        "id": 99,
+        "group": "Cuartos",
+        "date": "2026-07-11",
+        "day": "Sábado",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Miami",
+        "teamA": {
+            "code": "G91",
+            "name": "Ganador Partido 91",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G92",
+            "name": "Ganador Partido 92",
+            "flag": ""
+        }
+        },
+        {
+        "id": 100,
+        "group": "Cuartos",
+        "date": "2026-07-11",
+        "day": "Sábado",
+        "time": "",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Kansas City",
+        "teamA": {
+            "code": "G95",
+            "name": "Ganador Partido 95",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G96",
+            "name": "Ganador Partido 96",
+            "flag": ""
+        }
+        },
+        {
+        "id": 101,
+        "group": "Semifinal",
+        "date": "2026-07-14",
+        "day": "Martes",
+        "time": "16:00",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Dallas",
+        "teamA": {
+            "code": "G97",
+            "name": "Ganador Partido 97",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G98",
+            "name": "Ganador Partido 98",
+            "flag": ""
+        }
+        },
+        {
+        "id": 102,
+        "group": "Semifinal",
+        "date": "2026-07-15",
+        "day": "Miércoles",
+        "time": "16:00",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Atlanta",
+        "teamA": {
+            "code": "G99",
+            "name": "Ganador Partido 99",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G100",
+            "name": "Ganador Partido 100",
+            "flag": ""
+        }
+        },
+        {
+        "id": 103,
+        "group": "Tercer puesto",
+        "date": "2026-07-18",
+        "day": "Sábado",
+        "time": "18:00",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Miami",
+        "teamA": {
+            "code": "P101",
+            "name": "Perdedor Partido 101",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "P102",
+            "name": "Perdedor Partido 102",
+            "flag": ""
+        }
+        },
+        {
+        "id": 104,
+        "group": "Final",
+        "date": "2026-07-19",
+        "day": "Domingo",
+        "time": "16:00",
+        "timezone": "UTC-3",
+        "stadium": "Estadio Nueva York Nueva Jersey",
+        "teamA": {
+            "code": "G101",
+            "name": "Ganador Partido 101",
+            "flag": ""
+        },
+        "teamB": {
+            "code": "G102",
+            "name": "Ganador Partido 102",
+            "flag": ""
+        }
+        }
+    ]
+}

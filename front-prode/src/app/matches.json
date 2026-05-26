@@ -1,0 +1,1372 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "group": "A",
+      "date": "2026-06-11",
+      "day": "Jueves",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Ciudad de México",
+      "teamA": {
+        "code": "MX",
+        "name": "México",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "ZA",
+        "name": "Sudáfrica",
+        "flag": ""
+      }
+    },
+    {
+      "id": 2,
+      "group": "A",
+      "date": "2026-06-11",
+      "day": "Jueves",
+      "time": "22:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Guadalajara",
+      "teamA": {
+        "code": "KR",
+        "name": "República de Corea",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CZ",
+        "name": "República Checa",
+        "flag": ""
+      }
+    },
+    {
+      "id": 3,
+      "group": "B",
+      "date": "2026-06-12",
+      "day": "Viernes",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Toronto",
+      "teamA": {
+        "code": "CA",
+        "name": "Canadá",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "BA",
+        "name": "Bosnia y Herzegovina",
+        "flag": ""
+      }
+    },
+    {
+      "id": 4,
+      "group": "D",
+      "date": "2026-06-12",
+      "day": "Viernes",
+      "time": "21:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Los Ángeles",
+      "teamA": {
+        "code": "US",
+        "name": "Estados Unidos",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "PY",
+        "name": "Paraguay",
+        "flag": ""
+      }
+    },
+    {
+      "id": 5,
+      "group": "B",
+      "date": "2026-06-13",
+      "day": "Sábado",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Bahía de San Francisco",
+      "teamA": {
+        "code": "QA",
+        "name": "Catar",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CH",
+        "name": "Suiza",
+        "flag": ""
+      }
+    },
+    {
+      "id": 6,
+      "group": "C",
+      "date": "2026-06-13",
+      "day": "Sábado",
+      "time": "18:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Nueva York Nueva Jersey",
+      "teamA": {
+        "code": "BR",
+        "name": "Brasil",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "MA",
+        "name": "Marruecos",
+        "flag": ""
+      }
+    },
+    {
+      "id": 7,
+      "group": "C",
+      "date": "2026-06-13",
+      "day": "Sábado",
+      "time": "21:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Boston",
+      "teamA": {
+        "code": "HT",
+        "name": "Haití",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "SC",
+        "name": "Escocia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 8,
+      "group": "D",
+      "date": "2026-06-13",
+      "day": "Sábado",
+      "time": "00:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio BC Place Vancouver",
+      "teamA": {
+        "code": "AU",
+        "name": "Australia",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "TR",
+        "name": "Turquía",
+        "flag": ""
+      }
+    },
+    {
+      "id": 9,
+      "group": "E",
+      "date": "2026-06-14",
+      "day": "Domingo",
+      "time": "13:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Houston",
+      "teamA": {
+        "code": "DE",
+        "name": "Alemania",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CW",
+        "name": "Curazao",
+        "flag": ""
+      }
+    },
+    {
+      "id": 10,
+      "group": "F",
+      "date": "2026-06-14",
+      "day": "Domingo",
+      "time": "16:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Dallas",
+      "teamA": {
+        "code": "NL",
+        "name": "Países Bajos",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "JP",
+        "name": "Japón",
+        "flag": ""
+      }
+    },
+    {
+      "id": 11,
+      "group": "E",
+      "date": "2026-06-14",
+      "day": "Domingo",
+      "time": "19:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Filadelfia",
+      "teamA": {
+        "code": "CI",
+        "name": "Costa de Marfil",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "EC",
+        "name": "Ecuador",
+        "flag": ""
+      }
+    },
+    {
+      "id": 12,
+      "group": "F",
+      "date": "2026-06-14",
+      "day": "Domingo",
+      "time": "22:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Monterrey",
+      "teamA": {
+        "code": "SE",
+        "name": "Suecia",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "TN",
+        "name": "Túnez",
+        "flag": ""
+      }
+    },
+    {
+      "id": 13,
+      "group": "H",
+      "date": "2026-06-15",
+      "day": "Lunes",
+      "time": "12:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Atlanta",
+      "teamA": {
+        "code": "ES",
+        "name": "España",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CV",
+        "name": "Cabo Verde",
+        "flag": ""
+      }
+    },
+    {
+      "id": 14,
+      "group": "G",
+      "date": "2026-06-15",
+      "day": "Lunes",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Seattle",
+      "teamA": {
+        "code": "BE",
+        "name": "Bélgica",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "EG",
+        "name": "Egipto",
+        "flag": ""
+      }
+    },
+    {
+      "id": 15,
+      "group": "H",
+      "date": "2026-06-15",
+      "day": "Lunes",
+      "time": "18:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Miami",
+      "teamA": {
+        "code": "SA",
+        "name": "Arabia Saudí",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "UY",
+        "name": "Uruguay",
+        "flag": ""
+      }
+    },
+    {
+      "id": 16,
+      "group": "G",
+      "date": "2026-06-15",
+      "day": "Lunes",
+      "time": "21:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Los Ángeles",
+      "teamA": {
+        "code": "IR",
+        "name": "RI de Irán",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "NZ",
+        "name": "Nueva Zelanda",
+        "flag": ""
+      }
+    },
+    {
+      "id": 17,
+      "group": "I",
+      "date": "2026-06-16",
+      "day": "Martes",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Nueva York Nueva Jersey",
+      "teamA": {
+        "code": "FR",
+        "name": "Francia",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "SN",
+        "name": "Senegal",
+        "flag": ""
+      }
+    },
+    {
+      "id": 18,
+      "group": "I",
+      "date": "2026-06-16",
+      "day": "Martes",
+      "time": "18:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Boston",
+      "teamA": {
+        "code": "IQ",
+        "name": "Irak",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "NO",
+        "name": "Noruega",
+        "flag": ""
+      }
+    },
+    {
+      "id": 19,
+      "group": "J",
+      "date": "2026-06-16",
+      "day": "Martes",
+      "time": "21:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Kansas City",
+      "teamA": {
+        "code": "AR",
+        "name": "Argentina",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "DZ",
+        "name": "Argelia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 20,
+      "group": "J",
+      "date": "2026-06-16",
+      "day": "Martes",
+      "time": "00:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Bahía de San Francisco",
+      "teamA": {
+        "code": "AT",
+        "name": "Austria",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "JO",
+        "name": "Jordania",
+        "flag": ""
+      }
+    },
+    {
+      "id": 21,
+      "group": "K",
+      "date": "2026-06-17",
+      "day": "Miércoles",
+      "time": "13:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Houston",
+      "teamA": {
+        "code": "PT",
+        "name": "Portugal",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CD",
+        "name": "RD Congo",
+        "flag": ""
+      }
+    },
+    {
+      "id": 22,
+      "group": "L",
+      "date": "2026-06-17",
+      "day": "Miércoles",
+      "time": "16:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Dallas",
+      "teamA": {
+        "code": "EN",
+        "name": "Inglaterra",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "HR",
+        "name": "Croacia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 23,
+      "group": "L",
+      "date": "2026-06-17",
+      "day": "Miércoles",
+      "time": "19:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Toronto",
+      "teamA": {
+        "code": "GH",
+        "name": "Ghana",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "PA",
+        "name": "Panamá",
+        "flag": ""
+      }
+    },
+    {
+      "id": 24,
+      "group": "K",
+      "date": "2026-06-17",
+      "day": "Miércoles",
+      "time": "22:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Ciudad de México",
+      "teamA": {
+        "code": "UZ",
+        "name": "Uzbekistán",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CO",
+        "name": "Colombia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 25,
+      "group": "A",
+      "date": "2026-06-18",
+      "day": "Jueves",
+      "time": "12:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Atlanta",
+      "teamA": {
+        "code": "CZ",
+        "name": "República Checa",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "ZA",
+        "name": "Sudáfrica",
+        "flag": ""
+      }
+    },
+    {
+      "id": 26,
+      "group": "B",
+      "date": "2026-06-18",
+      "day": "Jueves",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Los Ángeles",
+      "teamA": {
+        "code": "CH",
+        "name": "Suiza",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "BA",
+        "name": "Bosnia y Herzegovina",
+        "flag": ""
+      }
+    },
+    {
+      "id": 27,
+      "group": "B",
+      "date": "2026-06-18",
+      "day": "Jueves",
+      "time": "18:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio BC Place Vancouver",
+      "teamA": {
+        "code": "CA",
+        "name": "Canadá",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "QA",
+        "name": "Catar",
+        "flag": ""
+      }
+    },
+    {
+      "id": 28,
+      "group": "A",
+      "date": "2026-06-18",
+      "day": "Jueves",
+      "time": "21:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Guadalajara",
+      "teamA": {
+        "code": "MX",
+        "name": "México",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "KR",
+        "name": "República de Corea",
+        "flag": ""
+      }
+    },
+    {
+      "id": 29,
+      "group": "D",
+      "date": "2026-06-19",
+      "day": "Viernes",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Seattle",
+      "teamA": {
+        "code": "US",
+        "name": "Estados Unidos",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "AU",
+        "name": "Australia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 30,
+      "group": "C",
+      "date": "2026-06-19",
+      "day": "Viernes",
+      "time": "18:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Boston",
+      "teamA": {
+        "code": "SC",
+        "name": "Escocia",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "MA",
+        "name": "Marruecos",
+        "flag": ""
+      }
+    },
+    {
+      "id": 31,
+      "group": "C",
+      "date": "2026-06-19",
+      "day": "Viernes",
+      "time": "21:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Filadelfia",
+      "teamA": {
+        "code": "BR",
+        "name": "Brasil",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "HT",
+        "name": "Haití",
+        "flag": ""
+      }
+    },
+    {
+      "id": 32,
+      "group": "D",
+      "date": "2026-06-19",
+      "day": "Viernes",
+      "time": "00:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Bahía de San Francisco",
+      "teamA": {
+        "code": "TR",
+        "name": "Turquía",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "PY",
+        "name": "Paraguay",
+        "flag": ""
+      }
+    },
+    {
+      "id": 33,
+      "group": "F",
+      "date": "2026-06-20",
+      "day": "Sábado",
+      "time": "13:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Houston",
+      "teamA": {
+        "code": "NL",
+        "name": "Países Bajos",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "SE",
+        "name": "Suecia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 34,
+      "group": "E",
+      "date": "2026-06-20",
+      "day": "Sábado",
+      "time": "16:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Toronto",
+      "teamA": {
+        "code": "DE",
+        "name": "Alemania",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CI",
+        "name": "Costa de Marfil",
+        "flag": ""
+      }
+    },
+    {
+      "id": 35,
+      "group": "E",
+      "date": "2026-06-20",
+      "day": "Sábado",
+      "time": "22:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Kansas City",
+      "teamA": {
+        "code": "EC",
+        "name": "Ecuador",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CW",
+        "name": "Curazao",
+        "flag": ""
+      }
+    },
+    {
+      "id": 36,
+      "group": "F",
+      "date": "2026-06-20",
+      "day": "Sábado",
+      "time": "00:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Monterrey",
+      "teamA": {
+        "code": "TN",
+        "name": "Túnez",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "JP",
+        "name": "Japón",
+        "flag": ""
+      }
+    },
+    {
+      "id": 37,
+      "group": "H",
+      "date": "2026-06-21",
+      "day": "Domingo",
+      "time": "12:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Atlanta",
+      "teamA": {
+        "code": "ES",
+        "name": "España",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "SA",
+        "name": "Arabia Saudí",
+        "flag": ""
+      }
+    },
+    {
+      "id": 38,
+      "group": "G",
+      "date": "2026-06-21",
+      "day": "Domingo",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Los Ángeles",
+      "teamA": {
+        "code": "BE",
+        "name": "Bélgica",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "IR",
+        "name": "Irán",
+        "flag": ""
+      }
+    },
+    {
+      "id": 39,
+      "group": "H",
+      "date": "2026-06-21",
+      "day": "Domingo",
+      "time": "18:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Miami",
+      "teamA": {
+        "code": "UY",
+        "name": "Uruguay",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CV",
+        "name": "Cabo Verde",
+        "flag": ""
+      }
+    },
+    {
+      "id": 40,
+      "group": "G",
+      "date": "2026-06-21",
+      "day": "Domingo",
+      "time": "21:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio BC Place Vancouver",
+      "teamA": {
+        "code": "NZ",
+        "name": "Nueva Zelanda",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "EG",
+        "name": "Egipto",
+        "flag": ""
+      }
+    },
+    {
+      "id": 41,
+      "group": "J",
+      "date": "2026-06-22",
+      "day": "Lunes",
+      "time": "13:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Dallas",
+      "teamA": {
+        "code": "AR",
+        "name": "Argentina",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "AT",
+        "name": "Austria",
+        "flag": ""
+      }
+    },
+    {
+      "id": 42,
+      "group": "I",
+      "date": "2026-06-22",
+      "day": "Lunes",
+      "time": "17:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Filadelfia",
+      "teamA": {
+        "code": "FR",
+        "name": "Francia",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "IQ",
+        "name": "Irak",
+        "flag": ""
+      }
+    },
+    {
+      "id": 43,
+      "group": "I",
+      "date": "2026-06-22",
+      "day": "Lunes",
+      "time": "20:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Nueva York Nueva Jersey",
+      "teamA": {
+        "code": "NO",
+        "name": "Noruega",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "SN",
+        "name": "Senegal",
+        "flag": ""
+      }
+    },
+    {
+      "id": 44,
+      "group": "J",
+      "date": "2026-06-22",
+      "day": "Lunes",
+      "time": "23:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Bahía de San Francisco Bay",
+      "teamA": {
+        "code": "JO",
+        "name": "Jordania",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "DZ",
+        "name": "Argelia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 45,
+      "group": "K",
+      "date": "2026-06-23",
+      "day": "Martes",
+      "time": "13:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Houston",
+      "teamA": {
+        "code": "PT",
+        "name": "Portugal",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "UZ",
+        "name": "Uzbekistán",
+        "flag": ""
+      }
+    },
+    {
+      "id": 46,
+      "group": "L",
+      "date": "2026-06-23",
+      "day": "Martes",
+      "time": "16:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Boston",
+      "teamA": {
+        "code": "EN",
+        "name": "Inglaterra",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "GH",
+        "name": "Ghana",
+        "flag": ""
+      }
+    },
+    {
+      "id": 47,
+      "group": "L",
+      "date": "2026-06-23",
+      "day": "Martes",
+      "time": "19:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Toronto",
+      "teamA": {
+        "code": "PA",
+        "name": "Panamá",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "HR",
+        "name": "Croacia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 48,
+      "group": "K",
+      "date": "2026-06-23",
+      "day": "Martes",
+      "time": "22:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Guadalajara",
+      "teamA": {
+        "code": "CO",
+        "name": "Colombia",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CD",
+        "name": "RD Congo",
+        "flag": ""
+      }
+    },
+    {
+      "id": 49,
+      "group": "B",
+      "date": "2026-06-24",
+      "day": "Miércoles",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio BC Place Vancouver",
+      "teamA": {
+        "code": "CH",
+        "name": "Suiza",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CA",
+        "name": "Canadá",
+        "flag": ""
+      }
+    },
+    {
+      "id": 50,
+      "group": "B",
+      "date": "2026-06-24",
+      "day": "Miércoles",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Seattle",
+      "teamA": {
+        "code": "BA",
+        "name": "Bosnia y Herzegovina",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "QA",
+        "name": "Catar",
+        "flag": ""
+      }
+    },
+    {
+      "id": 51,
+      "group": "C",
+      "date": "2026-06-24",
+      "day": "Miércoles",
+      "time": "18:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Miami",
+      "teamA": {
+        "code": "SC",
+        "name": "Escocia",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "BR",
+        "name": "Brasil",
+        "flag": ""
+      }
+    },
+    {
+      "id": 52,
+      "group": "C",
+      "date": "2026-06-24",
+      "day": "Miércoles",
+      "time": "18:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Atlanta",
+      "teamA": {
+        "code": "MA",
+        "name": "Marruecos",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "HT",
+        "name": "Haití",
+        "flag": ""
+      }
+    },
+    {
+      "id": 53,
+      "group": "A",
+      "date": "2026-06-24",
+      "day": "Miércoles",
+      "time": "21:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Ciudad de México",
+      "teamA": {
+        "code": "CZ",
+        "name": "República Checa",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "MX",
+        "name": "México",
+        "flag": ""
+      }
+    },
+    {
+      "id": 54,
+      "group": "A",
+      "date": "2026-06-24",
+      "day": "Miércoles",
+      "time": "21:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Monterrey",
+      "teamA": {
+        "code": "ZA",
+        "name": "Sudáfrica",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "KR",
+        "name": "República de Corea",
+        "flag": ""
+      }
+    },
+    {
+      "id": 55,
+      "group": "E",
+      "date": "2026-06-25",
+      "day": "Jueves",
+      "time": "16:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Filadelfia",
+      "teamA": {
+        "code": "CW",
+        "name": "Curazao",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "CI",
+        "name": "Costa de Marfil",
+        "flag": ""
+      }
+    },
+    {
+      "id": 56,
+      "group": "E",
+      "date": "2026-06-25",
+      "day": "Jueves",
+      "time": "16:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Nueva York Nueva Jersey",
+      "teamA": {
+        "code": "EC",
+        "name": "Ecuador",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "DE",
+        "name": "Alemania",
+        "flag": ""
+      }
+    },
+    {
+      "id": 57,
+      "group": "F",
+      "date": "2026-06-25",
+      "day": "Jueves",
+      "time": "19:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Dallas",
+      "teamA": {
+        "code": "JP",
+        "name": "Japón",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "SE",
+        "name": "Suecia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 58,
+      "group": "F",
+      "date": "2026-06-25",
+      "day": "Jueves",
+      "time": "19:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Kansas City",
+      "teamA": {
+        "code": "TN",
+        "name": "Túnez",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "NL",
+        "name": "Países Bajos",
+        "flag": ""
+      }
+    },
+    {
+      "id": 59,
+      "group": "D",
+      "date": "2026-06-25",
+      "day": "Jueves",
+      "time": "22:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Los Ángeles",
+      "teamA": {
+        "code": "TR",
+        "name": "Turquía",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "US",
+        "name": "Estados Unidos",
+        "flag": ""
+      }
+    },
+    {
+      "id": 60,
+      "group": "D",
+      "date": "2026-06-25",
+      "day": "Jueves",
+      "time": "22:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Bahía de San Francisco",
+      "teamA": {
+        "code": "PY",
+        "name": "Paraguay",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "AU",
+        "name": "Australia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 61,
+      "group": "I",
+      "date": "2026-06-26",
+      "day": "Viernes",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Boston",
+      "teamA": {
+        "code": "NO",
+        "name": "Noruega",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "FR",
+        "name": "Francia",
+        "flag": ""
+      }
+    },
+    {
+      "id": 62,
+      "group": "I",
+      "date": "2026-06-26",
+      "day": "Viernes",
+      "time": "15:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Toronto",
+      "teamA": {
+        "code": "SN",
+        "name": "Senegal",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "IQ",
+        "name": "Irak",
+        "flag": ""
+      }
+    },
+    {
+      "id": 63,
+      "group": "H",
+      "date": "2026-06-26",
+      "day": "Viernes",
+      "time": "20:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Houston",
+      "teamA": {
+        "code": "CV",
+        "name": "Cabo Verde",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "SA",
+        "name": "Arabia Saudí",
+        "flag": ""
+      }
+    },
+    {
+      "id": 64,
+      "group": "H",
+      "date": "2026-06-26",
+      "day": "Viernes",
+      "time": "20:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Guadalajara",
+      "teamA": {
+        "code": "UY",
+        "name": "Uruguay",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "ES",
+        "name": "España",
+        "flag": ""
+      }
+    },
+    {
+      "id": 65,
+      "group": "G",
+      "date": "2026-06-26",
+      "day": "Viernes",
+      "time": "23:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Seattle",
+      "teamA": {
+        "code": "EG",
+        "name": "Egipto",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "IR",
+        "name": "Irán",
+        "flag": ""
+      }
+    },
+    {
+      "id": 66,
+      "group": "G",
+      "date": "2026-06-26",
+      "day": "Viernes",
+      "time": "23:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio BC Place Vancouver",
+      "teamA": {
+        "code": "NZ",
+        "name": "Nueva Zelanda",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "BE",
+        "name": "Bélgica",
+        "flag": ""
+      }
+    },
+    {
+      "id": 67,
+      "group": "L",
+      "date": "2026-06-27",
+      "day": "Sábado",
+      "time": "17:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Nueva York Nueva Jersey",
+      "teamA": {
+        "code": "PA",
+        "name": "Panamá",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "EN",
+        "name": "Inglaterra",
+        "flag": ""
+      }
+    },
+    {
+      "id": 68,
+      "group": "L",
+      "date": "2026-06-27",
+      "day": "Sábado",
+      "time": "17:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Filadelfia",
+      "teamA": {
+        "code": "HR",
+        "name": "Croacia",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "GH",
+        "name": "Ghana",
+        "flag": ""
+      }
+    },
+    {
+      "id": 69,
+      "group": "K",
+      "date": "2026-06-27",
+      "day": "Sábado",
+      "time": "19:30",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Miami",
+      "teamA": {
+        "code": "CO",
+        "name": "Colombia",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "PT",
+        "name": "Portugal",
+        "flag": ""
+      }
+    },
+    {
+      "id": 70,
+      "group": "K",
+      "date": "2026-06-27",
+      "day": "Sábado",
+      "time": "19:30",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Atlanta",
+      "teamA": {
+        "code": "CD",
+        "name": "RD Congo",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "UZ",
+        "name": "Uzbekistán",
+        "flag": ""
+      }
+    },
+    {
+      "id": 71,
+      "group": "J",
+      "date": "2026-06-27",
+      "day": "Sábado",
+      "time": "22:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Kansas City",
+      "teamA": {
+        "code": "DZ",
+        "name": "Argelia",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "AT",
+        "name": "Austria",
+        "flag": ""
+      }
+    },
+    {
+      "id": 72,
+      "group": "J",
+      "date": "2026-06-27",
+      "day": "Sábado",
+      "time": "22:00",
+      "timezone": "UTC-3",
+      "stadium": "Estadio Dallas",
+      "teamA": {
+        "code": "JO",
+        "name": "Jordania",
+        "flag": ""
+      },
+      "teamB": {
+        "code": "AR",
+        "name": "Argentina",
+        "flag": ""
+      }
+    }
+  ]
+}
