@@ -106,6 +106,30 @@ Esta sección muestra todas las predicciones realizadas previamente por el usuar
 └── README.md
 ```
 
+# COMO USAR LOS ENDPOINTS
+
+Para que el código quede ordenado y no sea un lío de mantener, armamos la comunicación con el servidor en tres partes:
+1. El archivo base (api.js)
+
+Acá centralizamos la URL de Azure que nos pasó el profe. Es una función genérica: vos le pasás el endpoint que necesitás y, según el método (GET, POST, PUT o DELETE), se encarga de armar la petición con su body y configuraciones. Así no repetimos código en ningún lado.
+2. La carpeta de servicios (/servicios)
+
+Como buena práctica, separamos la lógica por pantalla o entidad. Cada una tiene su propio archivo:
+
+    Por ejemplo, todo lo relacionado a los partidos va en matches.servicio.js.
+
+    Regla del equipo: Todos los archivos de esta carpeta llevan el sufijo .servicio.js (ej: nombre.servicio.js) para que nos demos cuenta rápido de qué es cada cosa.
+
+3. Cómo usarlo en los componentes
+
+Los componentes de la aplicación no tienen que llamar directamente a la API. Solo se encargan de mostrar la info en la pantalla.
+
+El camino  es:
+
+    Importás la función que necesitás desde su archivo de servicio (por ejemplo, en el componente que lista los partidos, importás getMatches).
+
+    Llamás a esa función adentro del componente para traer los datos.
+
 ---
 
 # Objetivo del Proyecto

@@ -10,7 +10,7 @@ export default function MatchesList() {
   useEffect(() => {
     async function loadMatches() {
       try {
-        /*llama a todos los los datos del endpoint */
+        
         const data = await getMatches()
 
         console.log(data)
