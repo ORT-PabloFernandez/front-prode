@@ -1,6 +1,6 @@
 export default function Header() {
 
-
+       /*cambie los href sacandole el page.js */
   return (
     <header className="bg-black shadow">
       <div className="mx-auto flex h-16 items-center gap-8 px-4 sm:px-4 lg:px-4">
@@ -23,7 +23,7 @@ export default function Header() {
               <li>
                 <a
                   className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
-                    href="/predicciones/page.js"
+                    href="/predicciones"
                 >
                   predicciones
                 </a>
@@ -36,14 +36,14 @@ export default function Header() {
             <div className="sm:flex sm:gap-4">
               <a
                 className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
-                href="/login/page.js"
+                href="/login"
               >
                 Login
               </a>
 
               <a
                 className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
-                href="/registro/page.js"
+                href="/registro"
               >
                 Register
               </a>
