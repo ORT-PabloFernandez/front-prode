@@ -1,16 +1,38 @@
-export default function Header() {
+"use client";
 
-       /*cambie los href sacandole el page.js */
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+
+export default function Header() {
+  const router = useRouter();
+  const [estaLogueado, setEstaLogueado] = useState(false);
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+
+    setEstaLogueado(!!token);
+  }, []);
+
+  const logout = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("user");
+
+    setEstaLogueado(false);
+
+    router.push("/");
+  };
+
+  /*cambie los href sacandole el page.js */
   return (
     <header className="bg-black shadow">
       <div className="mx-auto flex h-16 items-center gap-8 px-4 sm:px-4 lg:px-4">
         {/* ACA SAQUE # Y PUSE / PARA QUE ME LLEVE A LA PAGINA PRINCIPAL CUANDO TOQUE EL LOGO, SI DEJO # NO HACE NADA */}
         <a className="block text-teal-600" href="/">
-          <span className="sr-only">Home</span>prode</a>
+          <span className="sr-only">Home</span>prode
+        </a>
         <div className="flex flex-1 items-center justify-end md:justify-between">
           <nav aria-label="Global" className="hidden md:block">
             <ul className="flex items-center gap-6 text-sm">
-
               {/* //PARTIDO NO MOSTRARIA EN EL HEADER XQ LLEVA AL ID DEL PARTIDO QUE VA A LLEVARME AHI CUANDO TOQUE EL PARTIDO AL CUAL QUEREMOS INGRESAR */}
               {/* <li>
                 <a
@@ -23,30 +45,40 @@ export default function Header() {
               <li>
                 <a
                   className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
-                    href="/predicciones"
+                  href="/predicciones"
                 >
                   predicciones
                 </a>
               </li>
-
             </ul>
           </nav>
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <a
-                className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
-                href="/login"
-              >
-                Login
-              </a>
+              {!estaLogueado ? (
+                <>
+                  <a
+                    className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
+                    href="/login"
+                  >
+                    Login
+                  </a>
 
-              <a
-                className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
-                href="/registro"
-              >
-                Register
-              </a>
+                  <a
+                    className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
+                    href="/registro"
+                  >
+                    Register
+                  </a>
+                </>
+              ) : (
+                <button
+                  onClick={logout}
+                  className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75"
+                >
+                  Cerrar sesión
+                </button>
+              )}
             </div>
 
             <button className="block rounded-sm bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden">
