@@ -1,7 +1,7 @@
 "use client"
-
 import { useEffect, useState } from "react"
 import { getMatches } from "@/servicios/matches.servicios"
+import CardMatch from "@/app/Components/CardMatch"
 
 export default function MatchesList() {
   const [matches, setMatches] = useState([])
@@ -10,11 +10,8 @@ export default function MatchesList() {
   useEffect(() => {
     async function loadMatches() {
       try {
-        
         const data = await getMatches()
-
         console.log(data)
-
         setMatches(data.data || [])
       } catch (error) {
         console.error(error)
@@ -26,24 +23,14 @@ export default function MatchesList() {
     loadMatches()
   }, [])
 
-  if (loading) return <p>Cargando partidos...</p>
+  if (loading) return <p className="text-white text-center py-8">Cargando partidos...</p>
+
+  console.log("Matches:", matches)
 
   return (
-    <div className="space-y-4">
+    <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 p-8">
       {matches.map((match) => (
-        <div
-          key={match.fixture.id}
-          className="border p-4 rounded"
-        >
-          <h2>
-            {match.teams.home.name} vs{" "}
-            {match.teams.away.name}
-          </h2>
-
-          <p>{match.fixture.date}</p>
-
-          <p>Estado: {match.fixture.status.long}</p>
-        </div>
+        <CardMatch key={match.id} match={match} />
       ))}
     </div>
   )
