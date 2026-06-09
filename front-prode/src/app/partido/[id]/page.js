@@ -49,7 +49,9 @@ export default function PartidoPageId() {
     async function confirmarPronostico() {
         try {
             setGuardando(true);
-            await savePredicciones(id, golesLocal, golesVisitante, null);
+             const token = localStorage.getItem("token");
+
+            await savePredicciones(id, golesLocal, golesVisitante, token);
             router.push("/predicciones");
         } catch (error) {
             console.error(error);

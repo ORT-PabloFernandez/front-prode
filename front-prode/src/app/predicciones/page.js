@@ -11,7 +11,9 @@ export default function PrediccionesPage() {
   useEffect(() => {
     async function loadPredicciones() {
       try {
-        const data = await getPredictions()
+          const token = localStorage.getItem("token")
+        const data = await getPredicciones(token)
+        console.log("RESULTADO:", data)
         setPredicciones(data.data || [])
       } catch (error) {
         console.error(error)
