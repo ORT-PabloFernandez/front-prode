@@ -1,9 +1,11 @@
 
 "use client"
 import { useEffect, useState } from "react"
+import { useRouter } from "next/navigation"
 import { getPredicciones } from "@/servicios/predicciones.servicio"
 
 export default function PrediccionesPage() {
+  const router = useRouter()
 
  const [predicciones, setPredicciones] = useState([])
   const [loading, setLoading] = useState(true)
@@ -28,7 +30,21 @@ export default function PrediccionesPage() {
 
   return (
     <main className="min-h-screen bg-slate-900 px-4 py-8 text-white">
-      <h1 className="text-3xl font-black mb-8">Mis Predicciones</h1>
+      <button
+        onClick={() => router.back()}
+        className="mb-4 flex items-center gap-2 bg-[#5b3fd4] hover:bg-[#4a32b0] transition text-white font-bold px-4 py-2 rounded-xl text-sm"
+      >
+        ← Volver
+      </button>
+      <div className="flex items-center justify-between mb-8">
+        <h1 className="text-3xl font-black">Mis Predicciones</h1>
+        <button
+          onClick={() => router.push("/ranking")}
+          className="bg-[#5b3fd4] hover:bg-[#4a32b0] transition text-white font-bold px-5 py-2.5 rounded-xl text-sm uppercase tracking-widest"
+        >
+          Ver Ranking
+        </button>
+      </div>
       {predicciones.length === 0 ? (
         <p className="text-slate-400 text-center">No tenés predicciones guardadas todavía.</p>
       ) : (

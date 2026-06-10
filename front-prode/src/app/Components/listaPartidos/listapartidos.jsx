@@ -12,7 +12,10 @@ export default function MatchesList() {
       try {
         const data = await getMatches()
         console.log(data)
-        setMatches(data.data || [])
+        const sorted = [...(data.data || [])].sort(
+          (a, b) => new Date(a.fixture.date) - new Date(b.fixture.date)
+        )
+        setMatches(sorted)
       } catch (error) {
         console.error(error)
       } finally {

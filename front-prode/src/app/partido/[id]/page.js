@@ -82,6 +82,14 @@ export default function PartidoPageId() {
 
     return (
         <main className="min-h-screen bg-slate-900 px-4 py-10 text-white flex flex-col items-center gap-6">
+      <div className="w-full" style={{ maxWidth: 480 }}>
+        <button
+          onClick={() => router.back()}
+          className="flex items-center gap-2 bg-[#5b3fd4] hover:bg-[#4a32b0] transition text-white font-bold px-4 py-2 rounded-xl text-sm"
+        >
+          ← Volver
+        </button>
+      </div>
 
             <article
                 style={{ backgroundColor: "#212542", boxShadow: `0 4px 24px 0 ${color}22`, maxWidth: 480 }}
@@ -98,14 +106,14 @@ export default function PartidoPageId() {
                     <div className="flex items-center justify-between gap-4 mb-4">
                         <div className="flex flex-col items-center gap-1 flex-1">
                             <span className="text-6xl font-black tracking-tighter leading-none text-white">{homeCode}</span>
-                            <div className="mt-4 h-8 w-12 rounded border border-dashed border-slate-600" />
+                            <img src={match.teams.home.flag} alt={match.teams.home.name} className="mt-4 h-8 w-12 object-contain rounded" />
                             <span className="text-sm font-bold mt-3 text-white">{match.teams.home.name}</span>
                             <span className="text-xs text-slate-400">{homeCode3}</span>
                         </div>
                         <span className="shrink-0 text-lg font-bold text-slate-500">vs</span>
                         <div className="flex flex-col items-center gap-1 flex-1">
                             <span className="text-6xl font-black tracking-tighter leading-none text-white">{awayCode}</span>
-                            <div className="mt-4 h-8 w-12 rounded border border-dashed border-slate-600" />
+                            <img src={match.teams.away.flag} alt={match.teams.away.name} className="mt-4 h-8 w-12 object-contain rounded" />
                             <span className="text-sm font-bold mt-3 text-white">{match.teams.away.name}</span>
                             <span className="text-xs text-slate-400">{awayCode3}</span>
                         </div>

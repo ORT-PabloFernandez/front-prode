@@ -16,7 +16,12 @@ export function savePredicciones(fixtureId,homeGoals,awayGoals,token){
     },
      body: JSON.stringify({fixtureId,homeGoals,awayGoals})
   })
-           
+}
 
-
- }
+export function getRanking(token) {
+  return apiFetch("/api/predictions/ranking", {
+    headers: {
+      Authorization: `Bearer ${token}`
+    }
+  })
+}

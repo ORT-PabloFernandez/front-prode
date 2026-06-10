@@ -1,14 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { login } from "../../servicios/authService";
 
 export default function Login() {
-  const router = useRouter();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [toast, setToast] = useState({ message: "", type: "" });
+
+  const showToast = (message, type) => {
+    setToast({ message, type });
+    setTimeout(() => setToast({ message: "", type: "" }), 2000);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -19,27 +23,23 @@ export default function Login() {
     );
 
     if (data.token) {
-      localStorage.setItem(
-        "token",
-        data.token
-      );
+      localStorage.setItem("token", data.token);
+      localStorage.setItem("user", JSON.stringify(data.user));
 
-      localStorage.setItem(
-        "user",
-        JSON.stringify(data.user)
-      );
-
-      alert("Login exitoso");
-
-      window.location.href = "/";
-
+      showToast("Login exitoso", "success");
+      setTimeout(() => { window.location.href = "/"; }, 2000);
     } else {
-      alert("Email o contraseña incorrectos");
+      showToast("Email o contraseña incorrectos", "error");
     }
   };
 
   return (
     <div>
+      {toast.message && (
+        <div className={`fixed top-20 left-1/2 -translate-x-1/2 z-50 font-semibold px-6 py-4 rounded-2xl shadow-lg text-white ${toast.type === "success" ? "bg-[#5b3fd4]" : "bg-red-500"}`}>
+          {toast.message}
+        </div>
+      )}
       <h1>Login</h1>
 
       <form onSubmit={handleSubmit}>

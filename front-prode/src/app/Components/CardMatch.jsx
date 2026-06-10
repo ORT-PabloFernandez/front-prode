@@ -60,8 +60,7 @@ function MatchCard({ match }) {
                         <span className="text-6xl font-black tracking-tighter leading-none text-white">
                             {homeCode2}
                         </span>
-                        {/* PLACEHOLDER BANDERA - PENDIENTE */}
-                        <div className="mt-4 h-8 w-12 rounded border border-dashed border-slate-600" />
+                        <img src={match.teams.home.flag} alt={match.teams.home.name} className="mt-4 h-8 w-12 object-contain rounded" />
                         <span className="text-sm font-bold mt-3 text-white">{match.teams.home.name}</span>
                     </div>
 
@@ -71,8 +70,7 @@ function MatchCard({ match }) {
                         <span className="text-6xl font-black tracking-tighter leading-none text-white">
                             {awayCode2}
                         </span>
-                        {/* PLACEHOLDER BANDERA - PENDIENTE */}
-                        <div className="mt-4 h-8 w-12 rounded border border-dashed border-slate-600" />
+                        <img src={match.teams.away.flag} alt={match.teams.away.name} className="mt-4 h-8 w-12 object-contain rounded" />
                         <span className="text-sm font-bold mt-3 text-white">{match.teams.away.name}</span>
                     </div>
                 </div>
