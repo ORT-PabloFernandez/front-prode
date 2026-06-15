@@ -50,12 +50,19 @@ export default function PartidoPageId() {
         try {
             setGuardando(true);
              const token = localStorage.getItem("token");
-
+                        console.log("token:", token);
+        console.log("fixtureId:", id);
+        console.log("homeGoals:", golesLocal);
+        console.log("awayGoals:", golesVisitante);
             await savePredicciones(id, golesLocal, golesVisitante, token);
             router.push("/predicciones");
         } catch (error) {
             console.error(error);
-            alert("Error al guardar el pronóstico");
+    if (error.message.includes("comenzó o finalizó")) {
+        alert("Este partido ya comenzó o finalizó. No podés modificar el pronóstico.");
+    } else {
+        alert("Error al guardar el pronóstico. Intentá de nuevo.");
+    }
         } finally {
             setGuardando(false);
         }

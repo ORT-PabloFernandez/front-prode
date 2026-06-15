@@ -85,8 +85,8 @@ export default function PrediccionesPage() {
           {predicciones.map((pred) => (
             <div key={pred._id} className="bg-[#212542] rounded-2xl px-6 py-4 flex justify-between items-center">
               <div>
-                <p className="font-bold">{pred.fixture.homeTeam} vs {pred.fixture.awayTeam}</p>
-                <p className="text-slate-400 text-sm">{pred.fixture.round}</p>
+                <p className="font-bold">{pred.fixture?.homeTeam} vs {pred.fixture?.awayTeam}</p>
+                <p className="text-slate-400 text-sm">{pred.fixture?.round}</p>
               </div>
               <div className="text-center">
                 <p className="text-2xl font-black text-orange-400">{pred.homeGoals} — {pred.awayGoals}</p>

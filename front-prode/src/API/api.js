@@ -14,9 +14,11 @@ export async function apiFetch(endpoint, options = {}) {
   })
 
   // si el backend responde mal (404, 500, etc), corto todo y tiro error
-  if (!res.ok) {
-    throw new Error("Error API")
-  }
+if (!res.ok) {
+    const errorData = await res.json().catch(() => ({}))
+    console.log("Error del backend:", errorData)
+    throw new Error(errorData.message || "Error API")
+}
 
   // si todo salió bien, devuelvo el JSON ya parseado
   return res.json()
