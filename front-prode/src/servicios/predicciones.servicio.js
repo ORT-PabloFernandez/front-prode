@@ -18,8 +18,25 @@ export function savePredicciones(fixtureId,homeGoals,awayGoals,token){
   })
 }
 
+export function getPrediccionByFixtureId(fixtureId, token) {
+  return apiFetch(`/api/predictions/${fixtureId}`, {
+    headers: {
+      Authorization: `Bearer ${token}`
+    }
+  })
+}
+
 export function getRanking(token) {
   return apiFetch("/api/predictions/ranking", {
+    headers: {
+      Authorization: `Bearer ${token}`
+    }
+  })
+}
+
+export function deletePrediccion(fixtureId, token) {
+  return apiFetch(`/api/predictions/${fixtureId}`, {
+    method: "DELETE",
     headers: {
       Authorization: `Bearer ${token}`
     }

@@ -7,8 +7,17 @@ export default function RankingPage() {
   const router = useRouter();
   const [ranking, setRanking] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [miUserId, setMiUserId] = useState(null);
 
   useEffect(() => {
+    const userStr = localStorage.getItem("user");
+    if (userStr) {
+      try {
+        const user = JSON.parse(userStr);
+        setMiUserId(user._id);
+      } catch {}
+    }
+
     async function loadRanking() {
       try {
         const token = localStorage.getItem("token");
@@ -47,7 +56,7 @@ export default function RankingPage() {
         >
           ← Volver
         </button>
-        <h1 className="text-3xl font-black mb-10">Ranking</h1>
+        <h1 className="text-3xl font-black mb-6">Ranking</h1>
 
         {ranking.length === 0 ? (
           <p className="text-slate-400 text-center">No hay datos de ranking todavía.</p>
@@ -59,15 +68,16 @@ export default function RankingPage() {
                 {podiumOrder.map((user, i) => {
                   if (!user) return <div key={i} className="w-24" />;
                   const isFirst = user.position === 1;
+                  const isMe = user.userId === miUserId;
                   return (
-                    <div key={user.userId} className="flex flex-col items-center gap-2">
+                    <div key={user.userId} className="flex flex-col items-center gap-2 transition-transform duration-200 hover:scale-105">
                       <img
                         src={medalImages[i]}
                         alt={`Medalla ${user.position}`}
                         className={`${podiumSizes[i]} w-auto object-contain`}
                       />
-                      <p className={`font-black text-white text-center ${isFirst ? "text-lg" : "text-base"}`}>
-                        {user.name}
+                      <p className={`font-black text-center ${isFirst ? "text-lg" : "text-base"} ${isMe ? "text-[#5b3fd4]" : "text-white"}`}>
+                        {user.name}{isMe ? " 👤" : ""}
                       </p>
                       <p className="text-[#5b3fd4] font-black text-xl">{user.totalPoints} pts</p>
                       <p className="text-slate-400 text-xs text-center">
@@ -82,29 +92,34 @@ export default function RankingPage() {
             {/* LISTA DEL 4TO EN ADELANTE */}
             {rest.length > 0 && (
               <div className="flex flex-col gap-3">
-                {rest.map((user) => (
-                  <div
-                    key={user.userId}
-                    style={{ backgroundColor: "#212542" }}
-                    className="rounded-2xl px-6 py-4 flex items-center gap-4"
-                  >
-                    <span className="text-slate-400 font-black text-xl min-w-[32px] text-center">
-                      {user.position}
-                    </span>
-                    <div className="flex-1">
-                      <p className="font-bold text-white">{user.name}</p>
-                      <p className="text-slate-400 text-xs mt-0.5">
-                        {user.exactScores} exactos · {user.correctResults} resultados · {user.totalPredictions} pronósticos
-                      </p>
+                {rest.map((user) => {
+                  const isMe = user.userId === miUserId;
+                  return (
+                    <div
+                      key={user.userId}
+                      style={{ backgroundColor: isMe ? "#1a1a3a" : "#212542" }}
+                      className={`rounded-2xl px-6 py-4 flex items-center gap-4 transition-transform duration-200 hover:scale-[1.02] ${isMe ? "border-2 border-[#5b3fd4]" : ""}`}
+                    >
+                      <span className={`font-black text-xl min-w-8 text-center ${isMe ? "text-[#5b3fd4]" : "text-slate-400"}`}>
+                        {user.position}
+                      </span>
+                      <div className="flex-1">
+                        <p className={`font-bold ${isMe ? "text-[#5b3fd4]" : "text-white"}`}>
+                          {user.name}{isMe ? " (vos)" : ""}
+                        </p>
+                        <p className="text-slate-400 text-xs mt-0.5">
+                          {user.exactScores} exactos · {user.correctResults} correctos · {user.totalPredictions} pronósticos
+                        </p>
+                      </div>
+                      <div className="text-right">
+                        <p className={`text-2xl font-black ${isMe ? "text-[#5b3fd4]" : ""}`} style={isMe ? {} : { color: "#5b3fd4" }}>
+                          {user.totalPoints}
+                        </p>
+                        <p className="text-xs text-slate-400">pts</p>
+                      </div>
                     </div>
-                    <div className="text-right">
-                      <p className="text-2xl font-black" style={{ color: "#5b3fd4" }}>
-                        {user.totalPoints}
-                      </p>
-                      <p className="text-xs text-slate-400">pts</p>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
           </>

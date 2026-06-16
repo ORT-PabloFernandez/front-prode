@@ -16,7 +16,7 @@ const GROUP_COLORS = {
     L: "#1dd1a1",
 };
 
-function MatchCard({ match }) {
+function MatchCard({ match, predicho = false }) {
     const router = useRouter();
 
     const groupLetter = match.league.group?.replace("Group ", "").trim() ?? "A";
@@ -45,6 +45,14 @@ function MatchCard({ match }) {
             {/* FRANJA DE COLOR SEGUN GRUPO */}
             <div style={{ backgroundColor: color, height: "6px" }} />
             <div className="px-6 py-7 sm:px-10">
+                {/* BADGE SI YA PRONOSTIQUE ESTE PARTIDO */}
+                {predicho && (
+                    <div className="flex justify-center mb-3">
+                        <span className="bg-green-900 text-green-300 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+                            ✓ Ya pronosticaste
+                        </span>
+                    </div>
+                )}
                 <p
                     style={{ color }}
                     className="text-center text-xs font-bold uppercase tracking-widest mb-1"
@@ -60,7 +68,7 @@ function MatchCard({ match }) {
                         <span className="text-6xl font-black tracking-tighter leading-none text-white">
                             {homeCode2}
                         </span>
-                        <img src={match.teams.home.flag} alt={match.teams.home.name} className="mt-4 h-8 w-12 object-contain rounded" />
+                        <img src={match.teams.home.flag} alt={match.teams.home.name} onError={(e) => { e.currentTarget.style.display = "none" }} className="mt-4 h-8 w-12 object-contain rounded" />
                         <span className="text-sm font-bold mt-3 text-white">{match.teams.home.name}</span>
                     </div>
 
@@ -70,7 +78,7 @@ function MatchCard({ match }) {
                         <span className="text-6xl font-black tracking-tighter leading-none text-white">
                             {awayCode2}
                         </span>
-                        <img src={match.teams.away.flag} alt={match.teams.away.name} className="mt-4 h-8 w-12 object-contain rounded" />
+                        <img src={match.teams.away.flag} alt={match.teams.away.name} onError={(e) => { e.currentTarget.style.display = "none" }} className="mt-4 h-8 w-12 object-contain rounded" />
                         <span className="text-sm font-bold mt-3 text-white">{match.teams.away.name}</span>
                     </div>
                 </div>
