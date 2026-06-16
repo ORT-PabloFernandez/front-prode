@@ -28,3 +28,20 @@ export function deleteMatch(id) {
     method: "DELETE",
   })
 }
+
+export function getRounds() {
+  return apiFetch("/api/matches/rounds")
+}
+
+export function getStandings() {
+  return apiFetch("/api/matches/standings")
+}
+
+export function refreshCache(token) {
+  return apiFetch("/api/matches/refresh-cache", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  })
+}
